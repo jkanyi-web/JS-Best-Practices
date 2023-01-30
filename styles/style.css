@@ -1,0 +1,117 @@
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  color: #444;
+}
+
+input {
+  font-style: italic;
+  border: none;
+  padding: 1em;
+  font-size: 1em;
+  outline: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 1em;
+  margin: 0;
+  list-style: none;
+}
+
+.title,
+input,
+li {
+  border-bottom: 1px solid lightgray;
+}
+
+label {
+  margin-left: 0.5em;
+}
+
+.title {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1em;
+  width: 100%;
+}
+
+.itemElement {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: min-content;
+  cursor: pointer;
+}
+
+.checkboxContainer {
+  display: flex;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 25rem;
+  background-color: #fff;
+  box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.7);
+}
+
+.containerTodo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btnCom {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  align-self: center;
+  margin: 1em;
+}
+
+.textInput {
+  font-family: 'Times New Roman', Times, serif;
+  color: #444;
+  display: block;
+  border: none !important;
+  outline: none;
+  justify-self: baseline;
+  background: transparent;
+  box-shadow: none;
+  overflow: auto;
+  font-size: 1.1rem;
+  font-style: normal;
+  resize: none;
+  margin: 0;
+  margin-left: 0.5em;
+  padding: 0;
+  word-wrap: break-word;
+  width: 20rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.editing {
+  background-color: #fffedd;
+}
